@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  }
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: lightblue;
+}  
+
+.container.light{
+    background-color: rgb(58, 58, 58);
+}
