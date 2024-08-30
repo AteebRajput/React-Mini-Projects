@@ -1,0 +1,125 @@
+.bmi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(220, 229, 237);
+    width: 500px;
+    border-radius: 10px;
+}
+
+.bmi h1{
+    font-size: 35px;
+    color: white;
+    background-color: rgb(7, 132, 178);
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    font-size: 22px;
+}
+
+
+/* From Uiverse.io by Samiix10 */ 
+.height {
+    display: flex;
+    flex-direction: column;
+  }
+  .height label {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .height sup {
+    color: red;
+  }
+  .height .input {
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #e1e2e3;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+    position: relative;
+    margin-top: 10px;
+  }
+  .height .input:focus {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+  }
+  
+.result{
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+  .result .category{
+    line-height: 1.5;
+    font-weight: 500;
+  }
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #171717;
+    padding: 10px 25px;
+    border: none;
+    border-radius: .6rem;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    overflow: hidden;
+  }
+  
+  button span:not(:nth-child(6)) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: rgb(7, 132, 178);
+    border-radius: 50%;
+    transition: .6s ease;
+  }
+  
+  button span:nth-child(6) {
+    position: relative;
+  }
+  
+  button span:nth-child(1) {
+    transform: translate(-3.3em, -4em);
+  }
+  
+  button span:nth-child(2) {
+    transform: translate(-6em, 1.3em);
+  }
+  
+  button span:nth-child(3) {
+    transform: translate(-.2em, 1.8em);
+  }
+  
+  button span:nth-child(4) {
+    transform: translate(3.5em, 1.4em);
+  }
+  
+  button span:nth-child(5) {
+    transform: translate(3.5em, -3.8em);
+  }
+  
+  button:hover span:not(:nth-child(6)) {
+    transform: translate(-50%, -50%) scale(4);
+    transition: 1.5s ease;
+  }
+    
